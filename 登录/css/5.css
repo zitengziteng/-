@@ -1,0 +1,15 @@
+.bg{
+    width: 40.11rem;
+    height: 9.83rem;
+    background-color: red;
+    position: relative;
+}
+.kuang{
+    width: 38.38rem;
+    height: 3.94rem;
+    background-color: khaki;
+    position: absolute;
+    margin-left: 1.11rem;
+    margin-top: 0.9rem;
+
+}

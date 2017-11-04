@@ -1,0 +1,113 @@
+.wrapper{
+    display: flex;
+    display: -webkit-flex;safari
+    /* width: 1083px; */
+    height: 268px;
+    background-color: #0086ff;
+    position: relative;
+}
+.icon1{
+    width: 52px;
+    height: 46px;
+    background-image: url(../image/1a.jpg);
+    z-index: 110;
+    position: absolute;
+    top: 55px;
+    left:80px;
+
+}
+.icon2{
+    width: 52px;
+    height: 46px;
+    background-image: url(../image/1b.jpg);
+    z-index: 110;
+    position: absolute;
+    top: 55px;
+    left:825px;
+
+}
+
+
+.btn{
+   width: 1035px;
+   height: 121px;
+   background-color:#ffffff;
+   justify-content: center;
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 16px;
+   border-radius: 10px;
+   border: 1px solid white;
+   justify-content: center;
+    
+}
+.ipt{
+    height: 121px;
+    /* background-color: lawngreen; */
+    margin-top: -36px;
+   border: none;
+   outline: medium;
+}
+.ipt2{
+    width: 120px;
+    height: 121px;
+       /* background-color: lawngreen; */
+       margin-top: 22px;
+       margin-left: 900px;
+       border: none;
+       outline: medium;
+       font-size: 3rem;
+       z-index: 220;
+
+}
+.line{
+    width: 3px;
+    height: 58px;
+    background-color:#949494;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 700px;
+    z-index: 300;
+}
+/* 搜索框结束 */
+/* 导航栏开始 */
+.navigation {
+ /* display: flex;
+ display: -webkit-box;/*
+  justify-content: center; */
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+ /* width: 1083px; */
+ height: 119px;
+  list-style: none;
+ margin-top: 140px;
+ margin-left: -1020px;
+ z-index: 1000;
+}
+.navigation a{
+    text-decoration: none;
+    /* list-style: none; */
+    display: block;
+    padding: 1em;
+    color: white;
+    /* background-color: red; */
+    font-size: 3rem;
+    width: auto;
+}
+.navigation a:hover {
+    color: palegreen;
+}
+@media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    

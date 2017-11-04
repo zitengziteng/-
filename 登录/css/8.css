@@ -1,0 +1,25 @@
+.bg{
+    height: 172px;
+    /* display: inline-flex; */
+    display: flex;
+    background-color: red;
+    /* flex: 2; */
+  
+}
+.kuang{
+    /* margin-top: 290px;
+    height: 69px;
+    background-color: khaki;
+    justify-content: center;
+    /* display: flex */
+    /* z-index: 2200; */ 
+    /* padding: 50 80px; */
+    margin-top: 21px;
+    height: 69px;
+    background-color: gray;
+    flex: 1 10%;;
+    justify-content: center;
+    border-radius: 10px;
+ 
+   
+}

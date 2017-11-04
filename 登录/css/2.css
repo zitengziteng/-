@@ -1,0 +1,221 @@
+.bg{
+    width: 33rem;
+    height: 8.34rem;
+    background: #0086ff;
+   
+}
+/* 有背景颜色,文字颜色演示设置失败*/
+.sousuo {
+    width: 52.5rem;
+    height: 7.43rem;
+    background: #ffffff;
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 35px;
+    /* color: #9b9b9b; */
+    /* color: red; */
+    padding-left:197px;
+
+   
+}
+.icon_user{
+   width: 3.12rem;
+   height: 3.12rem;
+   /* background-color: rebeccapurple; */
+   position: absolute;
+   left: 100px;
+   /* 就很好奇这种位置,量的36距离上面,但那样写不写. */
+   top: 65px;
+   left:83px;
+   background-image: url(../image/1a.jpg);
+   z-index: 1000;
+}
+.qianbi{
+    width: 6.25rem;
+    height: 9.31rem;
+    position: absolute;
+    top: 23px;
+    left: 940px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 35px;
+    color:  #999999;
+
+/*   
+    background-image: url(../image/1b.jpg);
+    position: absolute;
+    left: 340px;
+    top: 30px; */
+    z-index: 22;
+}  
+  .icon2{
+    width: 3.125rem;
+    height: 3.125rem;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    left: 100px;
+    /* 就很好奇这种位置,量的36距离上面,但那样写不写. */
+
+    top: 55px;
+    left:820px;
+    background-image: url(../image/1b.jpg);
+    z-index: 1000;
+  } 
+  .shuxian{
+    width: 6.25rem;
+    height: 3.75rem;
+    position: absolute;
+    top: 50px;
+    left: 740px;
+    border: 1px solid #ffffff;
+    /* border-radius: 10px; */ 
+    font-size: 85px;
+    color:  #999999;
+    border-left: 1px solid  #999999;
+    z-index: 30;;
+
+  }
+  /* 导航 */
+ .nav{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      white-space: nowrap;
+      /* width: 1800px; */
+      
+      
+  }
+.nav li{
+       /* float: left;  */
+      
+      display: inline; 
+        
+} 
+.nav1{
+      position: absolute; 
+      top: 185px;
+      left: 140px;
+      font-size: 40px;
+      z-index: 40;
+  }
+  .nav2{
+    position: absolute; 
+    top: 185px;
+    left: 503px;
+    font-size: 40px;
+    z-index: 40;
+}
+.nav3{
+    position: absolute; 
+    top: 185px;
+    /* 1很好奇,为什么left超过600文字会自动换行,这次就写成right */
+        /* 解决办法 强制不换行 */
+        /*    white-space: nowrap; */
+    left: 863px;
+    /* right: -162px; */
+    font-size: 40px;
+    z-index: 40;
+    display: inline;
+}
+ .nav li a{
+      text-decoration: none;
+      display: block;
+      color:#ffffff;
+      /* width: 85px;
+      height: 40px; */
+
+ } 
+ /* 导航条hover属性 */
+ /* 1   导航栏遇到 下边下划线不是在最下边,而且  没有要求  呢么很长 */
+ .nav li a:hover{
+    display: block;
+    /* color: red;
+    background: pink; */
+    border-bottom: 3px solid  #ffffff;
+ }
+
+ /* 割线 */
+ .gexian{
+     width: 67.56rem;
+     height: 1.31rem;
+     background: #e5e5e5;
+     /* 自己设置这么多不显示,去掉就显示了. */
+     /* z-index: 600;
+     display: block;
+     /* position: absolute; */
+     /* margin-top: 210px; */
+     /* left: 100px; */ 
+ }
+
+/* 话题  吃人 */
+.chiren{
+    width: 67.5rem;
+    height: 33rem;
+    /* background: palegreen; */
+}
+.shutupian{
+    width: 6.25rem;
+    height: 6.25rem;
+    background: url(../image/1.jpg) no-repeat;
+    z-index: 100;
+    position: absolute;
+    margin-top: 37px;
+    left: 60px;
+}
+.yuedu{
+    width: 16.93rem;
+    height: 2.31rem;
+    color:#c0c0c0;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 146px;
+    margin-top: 44px;
+
+}
+/* .kongbu{
+    width: 643px;
+    height: 40px;
+    color:black;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 54px;
+    margin-top: 136px;
+    font-weight: bold;
+    z-index: 
+} */
+
+.kongbu{
+    width: 40.25rem;
+    height: 2.5rem;
+    /* background: peru; */
+    position: absolute;
+    font-size: 40px;
+    margin-top: 136px;
+    margin-left: 54px;
+}
+.furen{
+    width: 59.375rem;
+    height: 94375rem;
+    /* background: navy; */
+    color: #989898;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 54px;
+
+
+}
+.pinglun{
+    width: 35.68rem;
+    height: 2.187rem;
+    /* background: navy; */
+    color: #989898;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 46px;
+}
